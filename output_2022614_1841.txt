@@ -3304,3 +3304,1896 @@ Solution 2, time = 524.576363 s, objective = -101680, posted job starts = 224, f
 presences: [56, 39, 48, 23, 17, 22, 27, 15, 28]
 Solution 3, time = 719.844440 s, objective = -101681, posted job starts = 224, fulfilled deadline = 266, overdue time = 1274084982885, overdue_time_stueckzahl = 2546940544618, start times = 725724, transition cost = 2156,  early finished = -101681, overdue_time_KundenWunschTermin = 735207, makespan = 6351, equal_capacity_pool = 544, equal_capacity_all = 3172
 presences: [56, 39, 48, 23, 17, 22, 27, 15, 28]
+.
+.
+.
+#Bound 2851.97s best:-101689 next:[-165132,-101690] bool_core num_cores:6654 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120357/4072105
+#Bound 2865.98s best:-101689 next:[-165131,-101690] bool_core num_cores:6655 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120360/4072156
+#Bound 2875.36s best:-101689 next:[-165130,-101690] bool_core num_cores:6656 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120363/4072207
+#Bound 2886.48s best:-101689 next:[-165129,-101690] bool_core num_cores:6657 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120366/4072258
+#Bound 2896.40s best:-101689 next:[-165128,-101690] bool_core num_cores:6658 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120368/4072309
+#Bound 2905.68s best:-101689 next:[-165127,-101690] bool_core num_cores:6659 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120370/4072360
+#Bound 2921.10s best:-101689 next:[-165126,-101690] bool_core num_cores:6660 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120372/4072411
+#Bound 2932.12s best:-101689 next:[-165125,-101690] bool_core num_cores:6661 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120374/4072462
+#Bound 2945.83s best:-101689 next:[-165124,-101690] bool_core num_cores:6662 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120387/4072513
+#Bound 2961.94s best:-101689 next:[-165123,-101690] bool_core num_cores:6663 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120393/4072564
+#Bound 2976.51s best:-101689 next:[-165122,-101690] bool_core num_cores:6664 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120843/4072615
+#Bound 2992.06s best:-101689 next:[-165121,-101690] bool_core num_cores:6665 [core:1 mw:1 d:26] assumptions:283 depth:26 fixed_bools:120847/4072666
+
+Sub-solver search statistics:
+  'max_lp':
+     LP statistics:
+       final dimension: 1974310 rows, 1314486 columns, 7719617 entries with magnitude in [2.152754e-04, 1.000000e+00]
+       total number of simplex iterations: 46689
+       num solves: 
+         - #DUAL_UNBOUNDED: 1478
+         - #DUAL_FEASIBLE: 1638
+       managed constraints: 1974310
+       merged constraints: 171871
+       shortened constraints: 19800
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 1 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 6
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 489 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 285
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 4
+       merged constraints: 15
+       shortened constraints: 19
+       total cuts added: 0 (out of 0 calls)
+
+  'reduced_costs':
+     LP statistics:
+       final dimension: 7459 rows, 1314486 columns, 26416 entries with magnitude in [2.687736e-03, 1.000000e+00]
+       total number of simplex iterations: 15327
+       num solves: 
+         - #OPTIMAL: 169
+         - #DUAL_UNBOUNDED: 10143
+         - #DUAL_FEASIBLE: 930
+       managed constraints: 1979523
+       merged constraints: 196811
+       shortened constraints: 22237
+       coefficient strenghtenings: 6963
+       num simplifications: 33038
+       total cuts added: 5217 (out of 362869 calls)
+         - 'AffineMax': 21
+         - 'CG': 505
+         - 'Circuit': 83
+         - 'CumulativeCompletionTime': 3
+         - 'CumulativeCompletionTime_lifted': 3
+         - 'IB': 2116
+         - 'LinMax': 2
+         - 'MIR_1': 89
+         - 'MIR_2': 30
+         - 'MIR_3': 42
+         - 'MIR_4': 74
+         - 'MIR_5': 29
+         - 'MIR_6': 33
+         - 'NoOverlapCompletionTime': 309
+         - 'NoOverlapEnergy_energy': 14
+         - 'NoOverlapEnergy_lifted_energy': 4
+         - 'PositiveProduct': 108
+         - 'SquareLower': 1531
+         - 'SquareUpper': 2
+         - 'ZERO_HALF': 8
+         - 'clique': 211
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 15
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 9
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 489 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 927
+       managed constraints: 4
+       merged constraints: 15
+       shortened constraints: 21
+       num simplifications: 2
+       total cuts added: 0 (out of 0 calls)
+
+  'pseudo_costs':
+     LP statistics:
+       final dimension: 7306 rows, 1314486 columns, 26562 entries with magnitude in [2.567525e-03, 1.000000e+00]
+       total number of simplex iterations: 15728
+       num solves: 
+         - #OPTIMAL: 159
+         - #DUAL_UNBOUNDED: 5934
+         - #DUAL_FEASIBLE: 943
+       managed constraints: 1979298
+       merged constraints: 194180
+       shortened constraints: 22029
+       coefficient strenghtenings: 6777
+       num simplifications: 22698
+       total cuts added: 4994 (out of 343751 calls)
+         - 'AffineMax': 21
+         - 'CG': 383
+         - 'Circuit': 85
+         - 'CumulativeCompletionTime': 3
+         - 'CumulativeCompletionTime_lifted': 3
+         - 'IB': 1887
+         - 'LinMax': 2
+         - 'MIR_1': 81
+         - 'MIR_2': 24
+         - 'MIR_3': 36
+         - 'MIR_4': 65
+         - 'MIR_5': 25
+         - 'MIR_6': 26
+         - 'NoOverlapCompletionTime': 260
+         - 'NoOverlapEnergy_energy': 12
+         - 'NoOverlapEnergy_lifted_energy': 4
+         - 'PositiveProduct': 104
+         - 'SquareLower': 1445
+         - 'SquareUpper': 5
+         - 'ZERO_HALF': 10
+         - 'clique': 513
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 137
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 84
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 489 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 1345
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 4
+       merged constraints: 15
+       shortened constraints: 21
+       num simplifications: 2
+       total cuts added: 0 (out of 0 calls)
+
+  'lb_tree_search':
+     LP statistics:
+       final dimension: 16193 rows, 1314486 columns, 216219 entries with magnitude in [3.285707e-04, 1.000000e+00]
+       total number of simplex iterations: 41115
+       num solves: 
+         - #OPTIMAL: 471
+         - #DUAL_UNBOUNDED: 1750
+         - #DUAL_FEASIBLE: 2723
+       managed constraints: 1984016
+       merged constraints: 273673
+       shortened constraints: 29067
+       coefficient strenghtenings: 10817
+       num simplifications: 98110
+       total cuts added: 22733 (out of 1074220 calls)
+         - 'AffineMax': 40
+         - 'CG': 3667
+         - 'Circuit': 2473
+         - 'CumulativeCompletionTime': 3
+         - 'CumulativeCompletionTime_lifted': 3
+         - 'IB': 7996
+         - 'LinMax': 5
+         - 'MIR_1': 666
+         - 'MIR_1_K': 2
+         - 'MIR_2': 805
+         - 'MIR_3': 879
+         - 'MIR_4': 648
+         - 'MIR_5': 369
+         - 'MIR_6': 223
+         - 'NoOverlapCompletionTime': 450
+         - 'NoOverlapEnergy_energy': 12
+         - 'NoOverlapEnergy_lifted_energy': 4
+         - 'PositiveProduct': 123
+         - 'SquareLower': 2462
+         - 'SquareUpper': 8
+         - 'ZERO_HALF': 187
+         - 'clique': 1708
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 5 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 60
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 1
+       merged constraints: 1
+       shortened constraints: 2
+       num simplifications: 24
+       total cuts added: 0 (out of 0 calls)
+     LP statistics:
+       final dimension: 0 rows, 489 columns, 0 entries with magnitude in [0.000000e+00, 0.000000e+00]
+       total number of simplex iterations: 0
+       num solves: 
+         - #OPTIMAL: 412
+         - #DUAL_FEASIBLE: 1
+       managed constraints: 4
+       merged constraints: 15
+       shortened constraints: 21
+       num simplifications: 2
+       total cuts added: 0 (out of 0 calls)
+
+
+Solutions found per subsolver:
+  'no_lp': 6
+
+Objective bounds found per subsolver:
+  'bool_core': 6601
+  'default_lp': 1
+  'fixed': 1
+  'no_lp': 1
+  'probing': 1
+
+Improving variable bounds shared per subsolver:
+  'core': 17334
+  'fixed': 77
+  'lb_tree_search': 14
+  'no_lp': 11746
+  'probing': 25
+  'pseudo_costs': 496
+  'quick_restart': 106
+  'quick_restart_no_lp': 130
+
+Clauses shared per subsolver:
+  'core': 23360
+  'no_lp': 5
+  'pseudo_costs': 3
+  'quick_restart_no_lp': 3
+
+CpSolverResponse summary:
+status: FEASIBLE
+objective: -101689
+best_bound: -165121
+booleans: 3971167
+conflicts: 185
+branches: 1794742
+propagations: 13104891
+integer_propagations: 10956379
+restarts: 11386
+lp_iterations: 41115
+walltime: 3115.85
+usertime: 3115.85
+deterministic_time: 3911.1
+gap_integral: 43256.2
+
+
+status: FEASIBLE
+
+End of Solve-section
+
+
+
+_ _ _ _ _ _ _Solver stops at: 2022-06-15 04:19:50.191941_ _ _ _ _ _ _ _
+
+Duration of solve: 0:52:03.697256
+
+
+Solution-Matrix saved...
+Save hints in dicts...
+'termin_nietstation' is not in list
+'termin_stueckzahl' is not in list
+Adding solution hints...
+Most recent feasible solutions and solver data saved
+Number of variables: 1313788
+Length of all_variables: 1313790
+Length of self.optModel.model._CpModel__model.solution_hint.vars: 6640
+Length of self.optModel.model.Proto().solution_hint.vars: 6640
+Length of old_solver_values: 1313790
+After hint clearing:
+Length of self.optModel.model._CpModel__model.solution_hint.vars: 0
+Length of self.optModel.model.Proto().solution_hint.vars: 0
+1313790 hints successfully added
+Number of variables: 1313788
+Length of all_variables: 1313790
+Length of self.optModel.model._CpModel__model.solution_hint.vars: 1313790
+Length of self.optModel.model.Proto().solution_hint.vars: 1313790
+Length of old_solver_values: 1313790
+After hint clearing:
+Length of self.optModel.model._CpModel__model.solution_hint.vars: 0
+Length of self.optModel.model.Proto().solution_hint.vars: 0
+Add 1328 hints for ranks...
+Add 1328 hints for presences...
+Add 1328 hints for starts...
+Add 1328 hints for ends...
+Add 1328 hints for l_duration...
+Length of self.optModel.model._CpModel__model.solution_hint.vars: 6640
+Length of self.optModel.model.Proto().solution_hint.vars: 6640
+Objective Value for zeitplan: -101689
+Solution count for zeitplan: 6
+Start times objective bound improved from 725728 to 725760
+Add upper bound with objective Value for starts_rundtakt: 361137
+Add upper bound with objective Value for starts_einspindler: 287574
+Add upper bound with objective Value for starts_nietstation: 77723
+Due Date Customer Wish objective bound improved from 735210 to 735185
+
+mean_duration_pool_6 1128
+mean_duration_pool_15 551
+mean_duration_pool_1 1633
+mean_duration_pool_5 1241
+mean_duration_all 1073
+
+presences: [(0, 56), (1, 39), (2, 48), (3, 23), (4, 17), (5, 22), (6, 27), (7, 15), (8, 28)]
+durations: [(0, 1053), (1, 1204), (2, 504), (3, 556), (4, 595), (5, 1666), (6, 1600), (7, 1126), (8, 1357)]
+
+
+10/11: Optimiere nach Kriterium termin_kunde
+
+
+
+_ _ _ _ _ _ _Solver starts at: 2022-06-15 04:20:05.464525_ _ _ _ _ _ _ _
+
+
+
+Starting CP-SAT solver v9.3.10497
+Parameters: random_seed: 2 random_branches_ratio: 0.02 use_optimization_hints: true max_time_in_seconds: 3600 log_search_progress: true cp_model_presolve: false num_search_workers: 20 cp_model_probing_level: 1 hint_conflict_limit: 75000 fix_variables_to_their_hinted_value: false
+
+Initial optimization model '':
+Search strategy: on 489 variables, CHOOSE_LOWEST_MIN, SELECT_MIN_VALUE
+#Variables: 1313788 (#ints:489 in objective)
+  - 530 different domains in [-10000000,18149977152000] with a largest complexity of 239.
+  - 3 constants in {2,3,9} 
+#kBoolOr: 319712 (#enforced: 319712) (#literals: 319712)
+#kCircuit: 30
+#kCumulative: 1 (#intervals: 30, #optional: 30, #variable_sizes: 30)
+#kEmpty: 1656
+#kIntDiv: 494
+#kIntProd: 978
+#kInterval: 1328 (#enforced: 1328)
+#kLinMax: 2689
+#kLinear1: 2427918 (#enforced: 2427552)
+#kLinear2: 806598 (#enforced: 804546)
+#kLinear3: 1872 (#enforced: 1332)
+#kLinearN: 10000 (#enforced: 8376) (#terms: 1316854)
+#kNoOverlap: 29 (#intervals: 1327, #optional: 1327, #variable_sizes: 1327)
+
+Starting presolve at 0.74s
+
+Presolve summary:
+  - 0 affine relations were detected.
+
+Presolved optimization model '':
+Search strategy: on 489 variables, CHOOSE_LOWEST_MIN, SELECT_MIN_VALUE
+#Variables: 1313788 (#ints:489 in objective)
+  - 530 different domains in [-10000000,18149977152000] with a largest complexity of 239.
+  - 3 constants in {2,3,9} 
+#kBoolOr: 319712 (#literals: 639424)
+#kCircuit: 30
+#kCumulative: 1 (#intervals: 30, #optional: 30, #variable_sizes: 30)
+#kIntDiv: 494
+#kIntProd: 978
+#kInterval: 1328 (#enforced: 1328)
+#kLinMax: 2689
+#kLinear1: 2427918 (#enforced: 2427552)
+#kLinear2: 806598 (#enforced: 804546)
+#kLinear3: 1872 (#enforced: 1332)
+#kLinearN: 10000 (#enforced: 8376) (#terms: 1316854)
+#kNoOverlap: 29 (#intervals: 1327, #optional: 1327, #variable_sizes: 1327)
+
+Preloading model.
+[Symmetry] Problem too large. Skipping. You can use symmetry_level:3 or more to force it.
+
+Starting Search at 6.10s with 20 workers.
+11 full subsolvers: [default_lp, fixed, no_lp, max_lp, core, reduced_costs, pseudo_costs, quick_restart, quick_restart_no_lp, lb_tree_search, probing]
+Interleaved subsolvers: [feasibility_pump, rnd_var_lns_default, rnd_cst_lns_default, graph_var_lns_default, graph_cst_lns_default, scheduling_time_window_lns_default, scheduling_random_lns_default, routing_random_lns_default, routing_path_lns_default, routing_full_path_lns_default, rins_lns_default, rens_lns_default]
+#Bound  48.29s best:inf   next:[297359,4386706] core initial_propagation
+#Bound 144.05s best:inf   next:[297360,4386706] bool_core num_cores:1 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:87891/3968387
+#Bound 144.12s best:inf   next:[297361,4386706] bool_core num_cores:2 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:87894/3968388
+#Bound 144.18s best:inf   next:[297362,4386706] bool_core num_cores:3 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:87895/3968389
+#Bound 144.25s best:inf   next:[297363,4386706] bool_core num_cores:4 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:87896/3968390
+#Bound 144.32s best:inf   next:[297364,4386706] bool_core num_cores:5 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:87899/3968391
+#Bound 144.38s best:inf   next:[297365,4386706] bool_core num_cores:6 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:87902/3968392
+#Bound 144.45s best:inf   next:[297366,4386706] bool_core num_cores:7 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:87905/3968392
+#Bound 144.52s best:inf   next:[297367,4386706] bool_core num_cores:8 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 144.57s best:inf   next:[297368,4386706] bool_core num_cores:9 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 144.61s best:inf   next:[297369,4386706] bool_core num_cores:10 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 144.69s best:inf   next:[297370,4386706] bool_core num_cores:11 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 144.74s best:inf   next:[297371,4386706] bool_core num_cores:12 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 144.78s best:inf   next:[297372,4386706] bool_core num_cores:13 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 144.83s best:inf   next:[297373,4386706] bool_core num_cores:14 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 144.87s best:inf   next:[297374,4386706] bool_core num_cores:15 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 144.92s best:inf   next:[297375,4386706] bool_core num_cores:16 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 144.97s best:inf   next:[297376,4386706] bool_core num_cores:17 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.01s best:inf   next:[297377,4386706] bool_core num_cores:18 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.06s best:inf   next:[297378,4386706] bool_core num_cores:19 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.11s best:inf   next:[297379,4386706] bool_core num_cores:20 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.16s best:inf   next:[297380,4386706] bool_core num_cores:21 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.21s best:inf   next:[297381,4386706] bool_core num_cores:22 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.26s best:inf   next:[297382,4386706] bool_core num_cores:23 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.31s best:inf   next:[297383,4386706] bool_core num_cores:24 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.35s best:inf   next:[297384,4386706] bool_core num_cores:25 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.40s best:inf   next:[297385,4386706] bool_core num_cores:26 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.44s best:inf   next:[297386,4386706] bool_core num_cores:27 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.49s best:inf   next:[297387,4386706] bool_core num_cores:28 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.53s best:inf   next:[297388,4386706] bool_core num_cores:29 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.59s best:inf   next:[297389,4386706] bool_core num_cores:30 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.64s best:inf   next:[297390,4386706] bool_core num_cores:31 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.69s best:inf   next:[297391,4386706] bool_core num_cores:32 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.75s best:inf   next:[297392,4386706] bool_core num_cores:33 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.82s best:inf   next:[297393,4386706] bool_core num_cores:34 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.88s best:inf   next:[297394,4386706] bool_core num_cores:35 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 145.95s best:inf   next:[297395,4386706] bool_core num_cores:36 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.01s best:inf   next:[297396,4386706] bool_core num_cores:37 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.08s best:inf   next:[297397,4386706] bool_core num_cores:38 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.14s best:inf   next:[297398,4386706] bool_core num_cores:39 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.20s best:inf   next:[297399,4386706] bool_core num_cores:40 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.26s best:inf   next:[297400,4386706] bool_core num_cores:41 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.31s best:inf   next:[297401,4386706] bool_core num_cores:42 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.37s best:inf   next:[297402,4386706] bool_core num_cores:43 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.42s best:inf   next:[297403,4386706] bool_core num_cores:44 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.48s best:inf   next:[297404,4386706] bool_core num_cores:45 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.53s best:inf   next:[297405,4386706] bool_core num_cores:46 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.59s best:inf   next:[297406,4386706] bool_core num_cores:47 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.65s best:inf   next:[297407,4386706] bool_core num_cores:48 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.71s best:inf   next:[297408,4386706] bool_core num_cores:49 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.80s best:inf   next:[297409,4386706] bool_core num_cores:50 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.87s best:inf   next:[297410,4386706] bool_core num_cores:51 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.92s best:inf   next:[297411,4386706] bool_core num_cores:52 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 146.97s best:inf   next:[297412,4386706] bool_core num_cores:53 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.03s best:inf   next:[297413,4386706] bool_core num_cores:54 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.08s best:inf   next:[297414,4386706] bool_core num_cores:55 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.14s best:inf   next:[297415,4386706] bool_core num_cores:56 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.19s best:inf   next:[297416,4386706] bool_core num_cores:57 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.25s best:inf   next:[297417,4386706] bool_core num_cores:58 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.30s best:inf   next:[297418,4386706] bool_core num_cores:59 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.36s best:inf   next:[297419,4386706] bool_core num_cores:60 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.41s best:inf   next:[297420,4386706] bool_core num_cores:61 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.46s best:inf   next:[297421,4386706] bool_core num_cores:62 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.52s best:inf   next:[297422,4386706] bool_core num_cores:63 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.57s best:inf   next:[297423,4386706] bool_core num_cores:64 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.63s best:inf   next:[297424,4386706] bool_core num_cores:65 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.69s best:inf   next:[297425,4386706] bool_core num_cores:66 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.75s best:inf   next:[297426,4386706] bool_core num_cores:67 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.80s best:inf   next:[297427,4386706] bool_core num_cores:68 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.86s best:inf   next:[297428,4386706] bool_core num_cores:69 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.91s best:inf   next:[297429,4386706] bool_core num_cores:70 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 147.97s best:inf   next:[297430,4386706] bool_core num_cores:71 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.02s best:inf   next:[297431,4386706] bool_core num_cores:72 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.08s best:inf   next:[297432,4386706] bool_core num_cores:73 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.13s best:inf   next:[297433,4386706] bool_core num_cores:74 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.19s best:inf   next:[297434,4386706] bool_core num_cores:75 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.24s best:inf   next:[297435,4386706] bool_core num_cores:76 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.30s best:inf   next:[297436,4386706] bool_core num_cores:77 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.36s best:inf   next:[297437,4386706] bool_core num_cores:78 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.42s best:inf   next:[297438,4386706] bool_core num_cores:79 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.47s best:inf   next:[297439,4386706] bool_core num_cores:80 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.53s best:inf   next:[297440,4386706] bool_core num_cores:81 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.59s best:inf   next:[297441,4386706] bool_core num_cores:82 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.64s best:inf   next:[297442,4386706] bool_core num_cores:83 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.70s best:inf   next:[297443,4386706] bool_core num_cores:84 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.76s best:inf   next:[297444,4386706] bool_core num_cores:85 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.81s best:inf   next:[297445,4386706] bool_core num_cores:86 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.87s best:inf   next:[297446,4386706] bool_core num_cores:87 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 148.97s best:inf   next:[297447,4386706] bool_core num_cores:88 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.02s best:inf   next:[297448,4386706] bool_core num_cores:89 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.07s best:inf   next:[297449,4386706] bool_core num_cores:90 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.14s best:inf   next:[297450,4386706] bool_core num_cores:91 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.19s best:inf   next:[297451,4386706] bool_core num_cores:92 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.23s best:inf   next:[297452,4386706] bool_core num_cores:93 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.28s best:inf   next:[297453,4386706] bool_core num_cores:94 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.32s best:inf   next:[297454,4386706] bool_core num_cores:95 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.37s best:inf   next:[297455,4386706] bool_core num_cores:96 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.42s best:inf   next:[297456,4386706] bool_core num_cores:97 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.48s best:inf   next:[297457,4386706] bool_core num_cores:98 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.53s best:inf   next:[297458,4386706] bool_core num_cores:99 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.58s best:inf   next:[297459,4386706] bool_core num_cores:100 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.64s best:inf   next:[297460,4386706] bool_core num_cores:101 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.69s best:inf   next:[297461,4386706] bool_core num_cores:102 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.75s best:inf   next:[297462,4386706] bool_core num_cores:103 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.80s best:inf   next:[297463,4386706] bool_core num_cores:104 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.85s best:inf   next:[297464,4386706] bool_core num_cores:105 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.89s best:inf   next:[297465,4386706] bool_core num_cores:106 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.94s best:inf   next:[297466,4386706] bool_core num_cores:107 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 149.98s best:inf   next:[297467,4386706] bool_core num_cores:108 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.03s best:inf   next:[297468,4386706] bool_core num_cores:109 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.07s best:inf   next:[297469,4386706] bool_core num_cores:110 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.12s best:inf   next:[297470,4386706] bool_core num_cores:111 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.16s best:inf   next:[297471,4386706] bool_core num_cores:112 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.21s best:inf   next:[297472,4386706] bool_core num_cores:113 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.26s best:inf   next:[297473,4386706] bool_core num_cores:114 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.31s best:inf   next:[297474,4386706] bool_core num_cores:115 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.36s best:inf   next:[297475,4386706] bool_core num_cores:116 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.41s best:inf   next:[297476,4386706] bool_core num_cores:117 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.46s best:inf   next:[297477,4386706] bool_core num_cores:118 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968392
+#Bound 150.51s best:inf   next:[297478,4386706] bool_core num_cores:119 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968393
+#Bound 150.64s best:inf   next:[297479,4386706] bool_core num_cores:120 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88085/3968394
+#Bound 150.78s best:inf   next:[297480,4386706] bool_core num_cores:121 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88086/3968395
+#Bound 150.89s best:inf   next:[297481,4386706] bool_core num_cores:122 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88087/3968396
+#Bound 150.99s best:inf   next:[297482,4386706] bool_core num_cores:123 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88088/3968397
+#Bound 151.12s best:inf   next:[297483,4386706] bool_core num_cores:124 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88089/3968398
+#Bound 151.23s best:inf   next:[297484,4386706] bool_core num_cores:125 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88090/3968399
+#Bound 151.35s best:inf   next:[297485,4386706] bool_core num_cores:126 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88091/3968400
+#Bound 151.48s best:inf   next:[297486,4386706] bool_core num_cores:127 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88092/3968401
+#Bound 151.60s best:inf   next:[297487,4386706] bool_core num_cores:128 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88093/3968402
+#Bound 151.73s best:inf   next:[297488,4386706] bool_core num_cores:129 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88094/3968403
+#Bound 151.87s best:inf   next:[297489,4386706] bool_core num_cores:130 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88095/3968404
+#Bound 152.00s best:inf   next:[297490,4386706] bool_core num_cores:131 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88096/3968405
+#Bound 152.15s best:inf   next:[297491,4386706] bool_core num_cores:132 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88097/3968406
+#Bound 152.27s best:inf   next:[297492,4386706] bool_core num_cores:133 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88098/3968407
+#Bound 152.40s best:inf   next:[297493,4386706] bool_core num_cores:134 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88099/3968408
+#Bound 152.53s best:inf   next:[297494,4386706] bool_core num_cores:135 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88100/3968409
+#Bound 152.67s best:inf   next:[297495,4386706] bool_core num_cores:136 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88101/3968410
+#Bound 152.79s best:inf   next:[297496,4386706] bool_core num_cores:137 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88102/3968411
+#Bound 152.92s best:inf   next:[297497,4386706] bool_core num_cores:138 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88103/3968412
+#Bound 153.05s best:inf   next:[297498,4386706] bool_core num_cores:139 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88104/3968413
+#Bound 153.20s best:inf   next:[297499,4386706] bool_core num_cores:140 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88105/3968414
+#Bound 153.37s best:inf   next:[297500,4386706] bool_core num_cores:141 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88106/3968415
+#Bound 153.48s best:inf   next:[297501,4386706] bool_core num_cores:142 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88107/3968416
+#Bound 153.60s best:inf   next:[297502,4386706] bool_core num_cores:143 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88108/3968417
+#Bound 153.72s best:inf   next:[297503,4386706] bool_core num_cores:144 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88109/3968418
+#Bound 153.84s best:inf   next:[297504,4386706] bool_core num_cores:145 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88110/3968419
+#Bound 153.95s best:inf   next:[297505,4386706] bool_core num_cores:146 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88111/3968420
+#Bound 154.07s best:inf   next:[297506,4386706] bool_core num_cores:147 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88112/3968421
+#Bound 154.18s best:inf   next:[297507,4386706] bool_core num_cores:148 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88113/3968422
+#Bound 154.29s best:inf   next:[297508,4386706] bool_core num_cores:149 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88114/3968423
+#Bound 154.39s best:inf   next:[297509,4386706] bool_core num_cores:150 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88115/3968424
+#Bound 154.49s best:inf   next:[297510,4386706] bool_core num_cores:151 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88116/3968425
+#Bound 154.60s best:inf   next:[297511,4386706] bool_core num_cores:152 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88117/3968426
+#Bound 154.71s best:inf   next:[297512,4386706] bool_core num_cores:153 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88118/3968427
+#Bound 154.83s best:inf   next:[297513,4386706] bool_core num_cores:154 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88119/3968428
+#Bound 154.95s best:inf   next:[297514,4386706] bool_core num_cores:155 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88120/3968429
+#Bound 155.09s best:inf   next:[297515,4386706] bool_core num_cores:156 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88121/3968430
+#Bound 155.21s best:inf   next:[297516,4386706] bool_core num_cores:157 [core:1 mw:1 d:0] assumptions:480 depth:0 fixed_bools:88122/3968431
+#Bound 155.38s best:inf   next:[297517,4386706] bool_core num_cores:158 [core:2 mw:1 d:0] assumptions:479 depth:1 fixed_bools:88123/3968434
+#Bound 155.53s best:inf   next:[297518,4386706] bool_core num_cores:159 [core:3 mw:1 d:1] assumptions:477 depth:2 fixed_bools:88123/3968440
+#Bound 155.64s best:inf   next:[297519,4386706] bool_core num_cores:160 [core:2 mw:1 d:2] assumptions:476 depth:2 fixed_bools:88123/3968443
+#Bound 155.74s best:inf   next:[297520,4386706] bool_core num_cores:161 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88123/3968444
+#Bound 155.87s best:inf   next:[297521,4386706] bool_core num_cores:162 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88124/3968445
+#Bound 156.00s best:inf   next:[297522,4386706] bool_core num_cores:163 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88125/3968446
+#Bound 156.13s best:inf   next:[297523,4386706] bool_core num_cores:164 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88126/3968447
+#Bound 156.25s best:inf   next:[297524,4386706] bool_core num_cores:165 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88127/3968448
+#Bound 156.38s best:inf   next:[297525,4386706] bool_core num_cores:166 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88128/3968449
+#Bound 156.50s best:inf   next:[297526,4386706] bool_core num_cores:167 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88129/3968450
+#Bound 156.63s best:inf   next:[297527,4386706] bool_core num_cores:168 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88130/3968451
+#Bound 156.75s best:inf   next:[297528,4386706] bool_core num_cores:169 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88131/3968452
+#Bound 156.86s best:inf   next:[297529,4386706] bool_core num_cores:170 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88132/3968453
+#Bound 156.98s best:inf   next:[297530,4386706] bool_core num_cores:171 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88133/3968454
+#Bound 157.10s best:inf   next:[297531,4386706] bool_core num_cores:172 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88134/3968455
+#Bound 157.22s best:inf   next:[297532,4386706] bool_core num_cores:173 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88135/3968456
+#Bound 157.34s best:inf   next:[297533,4386706] bool_core num_cores:174 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88136/3968457
+#Bound 157.49s best:inf   next:[297534,4386706] bool_core num_cores:175 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88137/3968458
+#Bound 157.65s best:inf   next:[297535,4386706] bool_core num_cores:176 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88138/3968459
+#Bound 157.74s best:inf   next:[297536,4386706] bool_core num_cores:177 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88139/3968460
+#Bound 157.83s best:inf   next:[297537,4386706] bool_core num_cores:178 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88140/3968461
+#Bound 157.93s best:inf   next:[297538,4386706] bool_core num_cores:179 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88141/3968462
+#Bound 158.04s best:inf   next:[297539,4386706] bool_core num_cores:180 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88142/3968463
+#Bound 158.13s best:inf   next:[297540,4386706] bool_core num_cores:181 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88143/3968464
+#Bound 158.23s best:inf   next:[297541,4386706] bool_core num_cores:182 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88144/3968465
+#Bound 158.32s best:inf   next:[297542,4386706] bool_core num_cores:183 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88145/3968466
+#Bound 158.42s best:inf   next:[297543,4386706] bool_core num_cores:184 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88146/3968467
+#Bound 158.54s best:inf   next:[297544,4386706] bool_core num_cores:185 [core:1 mw:1 d:1] assumptions:476 depth:2 fixed_bools:88147/3968468
+#Bound 158.64s best:inf   next:[297545,4386706] bool_core num_cores:186 [core:2 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88148/3968471
+#Bound 158.74s best:inf   next:[297546,4386706] bool_core num_cores:187 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88149/3968472
+#Bound 158.84s best:inf   next:[297547,4386706] bool_core num_cores:188 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88149/3968473
+#Bound 158.93s best:inf   next:[297548,4386706] bool_core num_cores:189 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88150/3968474
+#Bound 159.03s best:inf   next:[297549,4386706] bool_core num_cores:190 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88151/3968475
+#Bound 159.14s best:inf   next:[297550,4386706] bool_core num_cores:191 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88152/3968476
+#Bound 159.31s best:inf   next:[297551,4386706] bool_core num_cores:192 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88153/3968477
+#Bound 159.43s best:inf   next:[297552,4386706] bool_core num_cores:193 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88154/3968478
+#Bound 159.55s best:inf   next:[297553,4386706] bool_core num_cores:194 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88155/3968479
+#Bound 159.74s best:inf   next:[297554,4386706] bool_core num_cores:195 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88156/3968480
+#Bound 159.84s best:inf   next:[297555,4386706] bool_core num_cores:196 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88157/3968481
+#Bound 159.94s best:inf   next:[297556,4386706] bool_core num_cores:197 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88158/3968482
+#Bound 160.04s best:inf   next:[297557,4386706] bool_core num_cores:198 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88159/3968483
+#Bound 160.15s best:inf   next:[297558,4386706] bool_core num_cores:199 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88160/3968484
+#Bound 160.25s best:inf   next:[297559,4386706] bool_core num_cores:200 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88161/3968485
+#Bound 160.35s best:inf   next:[297560,4386706] bool_core num_cores:201 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88162/3968486
+#Bound 160.47s best:inf   next:[297561,4386706] bool_core num_cores:202 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88163/3968487
+#Bound 160.59s best:inf   next:[297562,4386706] bool_core num_cores:203 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88164/3968488
+#Bound 160.69s best:inf   next:[297563,4386706] bool_core num_cores:204 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88165/3968489
+#Bound 160.79s best:inf   next:[297564,4386706] bool_core num_cores:205 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88166/3968490
+#Bound 160.88s best:inf   next:[297565,4386706] bool_core num_cores:206 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88167/3968491
+#Bound 160.98s best:inf   next:[297566,4386706] bool_core num_cores:207 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88168/3968492
+#Bound 161.08s best:inf   next:[297567,4386706] bool_core num_cores:208 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88169/3968493
+#Bound 161.18s best:inf   next:[297568,4386706] bool_core num_cores:209 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88170/3968494
+#Bound 161.28s best:inf   next:[297569,4386706] bool_core num_cores:210 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88171/3968495
+#Bound 161.38s best:inf   next:[297570,4386706] bool_core num_cores:211 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88172/3968496
+#Bound 161.48s best:inf   next:[297571,4386706] bool_core num_cores:212 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88173/3968497
+#Bound 161.58s best:inf   next:[297572,4386706] bool_core num_cores:213 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88174/3968498
+#Bound 161.67s best:inf   next:[297573,4386706] bool_core num_cores:214 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88175/3968499
+#Bound 161.84s best:inf   next:[297574,4386706] bool_core num_cores:215 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88176/3968500
+#Bound 161.94s best:inf   next:[297575,4386706] bool_core num_cores:216 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88177/3968501
+#Bound 162.04s best:inf   next:[297576,4386706] bool_core num_cores:217 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88178/3968502
+#Bound 162.14s best:inf   next:[297577,4386706] bool_core num_cores:218 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88179/3968503
+#Bound 162.24s best:inf   next:[297578,4386706] bool_core num_cores:219 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88180/3968504
+#Bound 162.34s best:inf   next:[297579,4386706] bool_core num_cores:220 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88181/3968505
+#Bound 162.44s best:inf   next:[297580,4386706] bool_core num_cores:221 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88182/3968506
+#Bound 162.58s best:inf   next:[297581,4386706] bool_core num_cores:222 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88183/3968507
+#Bound 162.71s best:inf   next:[297582,4386706] bool_core num_cores:223 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88184/3968508
+#Bound 162.84s best:inf   next:[297583,4386706] bool_core num_cores:224 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88185/3968509
+#Bound 162.96s best:inf   next:[297584,4386706] bool_core num_cores:225 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88186/3968510
+#Bound 163.10s best:inf   next:[297585,4386706] bool_core num_cores:226 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88187/3968511
+#Bound 163.22s best:inf   next:[297586,4386706] bool_core num_cores:227 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88188/3968512
+#Bound 163.34s best:inf   next:[297587,4386706] bool_core num_cores:228 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88189/3968513
+#Bound 163.46s best:inf   next:[297588,4386706] bool_core num_cores:229 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88190/3968514
+#Bound 163.58s best:inf   next:[297589,4386706] bool_core num_cores:230 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88191/3968515
+#Bound 163.71s best:inf   next:[297590,4386706] bool_core num_cores:231 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88192/3968516
+#Bound 163.85s best:inf   next:[297591,4386706] bool_core num_cores:232 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88193/3968517
+#Bound 164.02s best:inf   next:[297592,4386706] bool_core num_cores:233 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88194/3968518
+#Bound 164.13s best:inf   next:[297593,4386706] bool_core num_cores:234 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88195/3968519
+#Bound 164.25s best:inf   next:[297594,4386706] bool_core num_cores:235 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88196/3968520
+#Bound 164.37s best:inf   next:[297595,4386706] bool_core num_cores:236 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88197/3968521
+#Bound 164.50s best:inf   next:[297596,4386706] bool_core num_cores:237 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88198/3968522
+#Bound 164.62s best:inf   next:[297597,4386706] bool_core num_cores:238 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88199/3968523
+#Bound 164.74s best:inf   next:[297598,4386706] bool_core num_cores:239 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88200/3968524
+#Bound 164.87s best:inf   next:[297599,4386706] bool_core num_cores:240 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88201/3968525
+#Bound 165.00s best:inf   next:[297600,4386706] bool_core num_cores:241 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88202/3968526
+#Bound 165.10s best:inf   next:[297601,4386706] bool_core num_cores:242 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88203/3968527
+#Bound 165.20s best:inf   next:[297602,4386706] bool_core num_cores:243 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88204/3968528
+#Bound 165.33s best:inf   next:[297603,4386706] bool_core num_cores:244 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88205/3968529
+#Bound 165.45s best:inf   next:[297604,4386706] bool_core num_cores:245 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88206/3968530
+#Bound 165.55s best:inf   next:[297605,4386706] bool_core num_cores:246 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88207/3968531
+#Bound 165.66s best:inf   next:[297606,4386706] bool_core num_cores:247 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88208/3968532
+#Bound 165.78s best:inf   next:[297607,4386706] bool_core num_cores:248 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88209/3968533
+#Bound 165.90s best:inf   next:[297608,4386706] bool_core num_cores:249 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88210/3968534
+#Bound 166.06s best:inf   next:[297609,4386706] bool_core num_cores:250 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88211/3968535
+#Bound 166.22s best:inf   next:[297610,4386706] bool_core num_cores:251 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88212/3968536
+#Bound 166.34s best:inf   next:[297611,4386706] bool_core num_cores:252 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88213/3968537
+#Bound 166.46s best:inf   next:[297612,4386706] bool_core num_cores:253 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88214/3968538
+#Bound 166.56s best:inf   next:[297613,4386706] bool_core num_cores:254 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88215/3968539
+#Bound 166.68s best:inf   next:[297614,4386706] bool_core num_cores:255 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88216/3968540
+#Bound 166.79s best:inf   next:[297615,4386706] bool_core num_cores:256 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88217/3968541
+#Bound 166.90s best:inf   next:[297616,4386706] bool_core num_cores:257 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88218/3968542
+#Bound 167.02s best:inf   next:[297617,4386706] bool_core num_cores:258 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88219/3968543
+#Bound 167.12s best:inf   next:[297618,4386706] bool_core num_cores:259 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88220/3968544
+#Bound 167.24s best:inf   next:[297619,4386706] bool_core num_cores:260 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88221/3968545
+#Bound 167.36s best:inf   next:[297620,4386706] bool_core num_cores:261 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88222/3968546
+#Bound 167.47s best:inf   next:[297621,4386706] bool_core num_cores:262 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88223/3968547
+#Bound 167.58s best:inf   next:[297622,4386706] bool_core num_cores:263 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88224/3968548
+#Bound 167.68s best:inf   next:[297623,4386706] bool_core num_cores:264 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88225/3968549
+#Bound 167.80s best:inf   next:[297624,4386706] bool_core num_cores:265 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88226/3968550
+#Bound 167.90s best:inf   next:[297625,4386706] bool_core num_cores:266 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88227/3968551
+#Bound 168.04s best:inf   next:[297626,4386706] bool_core num_cores:267 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88228/3968552
+#Bound 168.17s best:inf   next:[297627,4386706] bool_core num_cores:268 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88229/3968553
+#Bound 168.34s best:inf   next:[297628,4386706] bool_core num_cores:269 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88230/3968554
+#Bound 168.47s best:inf   next:[297629,4386706] bool_core num_cores:270 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88231/3968555
+#Bound 168.59s best:inf   next:[297630,4386706] bool_core num_cores:271 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88232/3968556
+#Bound 168.71s best:inf   next:[297631,4386706] bool_core num_cores:272 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88233/3968557
+#Bound 168.81s best:inf   next:[297632,4386706] bool_core num_cores:273 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88234/3968558
+#Bound 168.92s best:inf   next:[297633,4386706] bool_core num_cores:274 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88235/3968559
+#Bound 169.03s best:inf   next:[297634,4386706] bool_core num_cores:275 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88236/3968560
+#Bound 169.16s best:inf   next:[297635,4386706] bool_core num_cores:276 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88237/3968561
+#Bound 169.28s best:inf   next:[297636,4386706] bool_core num_cores:277 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88238/3968562
+#Bound 169.40s best:inf   next:[297637,4386706] bool_core num_cores:278 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88239/3968563
+#Bound 169.55s best:inf   next:[297638,4386706] bool_core num_cores:279 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88240/3968564
+#Bound 169.67s best:inf   next:[297639,4386706] bool_core num_cores:280 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88241/3968565
+#Bound 169.80s best:inf   next:[297640,4386706] bool_core num_cores:281 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88242/3968566
+#Bound 169.93s best:inf   next:[297641,4386706] bool_core num_cores:282 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88243/3968567
+#Bound 170.05s best:inf   next:[297642,4386706] bool_core num_cores:283 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88244/3968568
+#Bound 170.18s best:inf   next:[297643,4386706] bool_core num_cores:284 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88245/3968569
+#Bound 170.38s best:inf   next:[297644,4386706] bool_core num_cores:285 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88246/3968570
+#Bound 170.50s best:inf   next:[297645,4386706] bool_core num_cores:286 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88247/3968571
+#Bound 170.63s best:inf   next:[297646,4386706] bool_core num_cores:287 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88248/3968572
+#Bound 170.75s best:inf   next:[297647,4386706] bool_core num_cores:288 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88250/3968573
+#Bound 170.88s best:inf   next:[297648,4386706] bool_core num_cores:289 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88251/3968574
+#Bound 171.00s best:inf   next:[297649,4386706] bool_core num_cores:290 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88252/3968575
+#Bound 171.13s best:inf   next:[297650,4386706] bool_core num_cores:291 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88253/3968576
+#Bound 171.26s best:inf   next:[297651,4386706] bool_core num_cores:292 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88254/3968577
+#Bound 171.38s best:inf   next:[297652,4386706] bool_core num_cores:293 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88255/3968578
+#Bound 171.51s best:inf   next:[297653,4386706] bool_core num_cores:294 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88256/3968579
+#Bound 171.65s best:inf   next:[297654,4386706] bool_core num_cores:295 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88257/3968580
+#Bound 171.79s best:inf   next:[297655,4386706] bool_core num_cores:296 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88258/3968581
+#Bound 171.93s best:inf   next:[297656,4386706] bool_core num_cores:297 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88259/3968582
+#Bound 172.07s best:inf   next:[297657,4386706] bool_core num_cores:298 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88260/3968583
+#Bound 172.20s best:inf   next:[297658,4386706] bool_core num_cores:299 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88261/3968584
+#Bound 172.33s best:inf   next:[297659,4386706] bool_core num_cores:300 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88262/3968585
+#Bound 172.52s best:inf   next:[297660,4386706] bool_core num_cores:301 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88263/3968586
+#Bound 172.64s best:inf   next:[297661,4386706] bool_core num_cores:302 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88264/3968587
+#Bound 172.77s best:inf   next:[297662,4386706] bool_core num_cores:303 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88265/3968588
+#Bound 172.89s best:inf   next:[297663,4386706] bool_core num_cores:304 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88266/3968589
+#Bound 173.02s best:inf   next:[297664,4386706] bool_core num_cores:305 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88267/3968590
+#Bound 173.15s best:inf   next:[297665,4386706] bool_core num_cores:306 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88268/3968591
+#Bound 173.27s best:inf   next:[297666,4386706] bool_core num_cores:307 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88269/3968592
+#Bound 173.40s best:inf   next:[297667,4386706] bool_core num_cores:308 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88270/3968593
+#Bound 173.52s best:inf   next:[297668,4386706] bool_core num_cores:309 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88271/3968594
+#Bound 173.65s best:inf   next:[297669,4386706] bool_core num_cores:310 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88272/3968595
+#Bound 173.76s best:inf   next:[297670,4386706] bool_core num_cores:311 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88273/3968596
+#Bound 173.90s best:inf   next:[297671,4386706] bool_core num_cores:312 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88274/3968597
+#Bound 174.02s best:inf   next:[297672,4386706] bool_core num_cores:313 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88275/3968598
+#Bound 174.13s best:inf   next:[297673,4386706] bool_core num_cores:314 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88276/3968599
+#Bound 174.24s best:inf   next:[297674,4386706] bool_core num_cores:315 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88277/3968600
+#Bound 174.36s best:inf   next:[297675,4386706] bool_core num_cores:316 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88278/3968601
+#Bound 174.47s best:inf   next:[297676,4386706] bool_core num_cores:317 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88279/3968602
+#Bound 174.61s best:inf   next:[297677,4386706] bool_core num_cores:318 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88280/3968603
+#Bound 174.73s best:inf   next:[297678,4386706] bool_core num_cores:319 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88281/3968604
+#Bound 174.85s best:inf   next:[297679,4386706] bool_core num_cores:320 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88282/3968605
+#Bound 174.97s best:inf   next:[297680,4386706] bool_core num_cores:321 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88283/3968606
+#Bound 175.10s best:inf   next:[297681,4386706] bool_core num_cores:322 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88284/3968607
+#Bound 175.23s best:inf   next:[297682,4386706] bool_core num_cores:323 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88285/3968608
+#Bound 175.36s best:inf   next:[297683,4386706] bool_core num_cores:324 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88286/3968609
+#Bound 175.47s best:inf   next:[297684,4386706] bool_core num_cores:325 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88287/3968610
+#Bound 175.60s best:inf   next:[297685,4386706] bool_core num_cores:326 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88288/3968611
+#Bound 175.73s best:inf   next:[297686,4386706] bool_core num_cores:327 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88289/3968612
+#Bound 175.87s best:inf   next:[297687,4386706] bool_core num_cores:328 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88290/3968613
+#Bound 176.01s best:inf   next:[297688,4386706] bool_core num_cores:329 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88291/3968614
+#Bound 176.15s best:inf   next:[297689,4386706] bool_core num_cores:330 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88292/3968615
+#Bound 176.28s best:inf   next:[297690,4386706] bool_core num_cores:331 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88293/3968616
+#Bound 176.41s best:inf   next:[297691,4386706] bool_core num_cores:332 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88294/3968617
+#Bound 176.54s best:inf   next:[297692,4386706] bool_core num_cores:333 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88295/3968618
+#Bound 176.71s best:inf   next:[297693,4386706] bool_core num_cores:334 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88296/3968619
+#Bound 176.91s best:inf   next:[297694,4386706] bool_core num_cores:335 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88297/3968620
+#Bound 177.03s best:inf   next:[297695,4386706] bool_core num_cores:336 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88298/3968621
+#Bound 177.15s best:inf   next:[297696,4386706] bool_core num_cores:337 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88299/3968622
+#Bound 177.27s best:inf   next:[297697,4386706] bool_core num_cores:338 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88300/3968623
+#Bound 177.38s best:inf   next:[297698,4386706] bool_core num_cores:339 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88301/3968624
+#Bound 177.51s best:inf   next:[297699,4386706] bool_core num_cores:340 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88302/3968625
+#Bound 177.62s best:inf   next:[297700,4386706] bool_core num_cores:341 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88303/3968626
+#Bound 177.73s best:inf   next:[297701,4386706] bool_core num_cores:342 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88304/3968627
+#Bound 177.86s best:inf   next:[297702,4386706] bool_core num_cores:343 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88305/3968628
+#Bound 177.98s best:inf   next:[297703,4386706] bool_core num_cores:344 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88306/3968629
+#Bound 178.09s best:inf   next:[297704,4386706] bool_core num_cores:345 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88307/3968630
+#Bound 178.22s best:inf   next:[297705,4386706] bool_core num_cores:346 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88308/3968631
+#Bound 178.34s best:inf   next:[297706,4386706] bool_core num_cores:347 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88309/3968632
+#Bound 178.46s best:inf   next:[297707,4386706] bool_core num_cores:348 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88310/3968633
+#Bound 178.59s best:inf   next:[297708,4386706] bool_core num_cores:349 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88311/3968634
+#Bound 178.71s best:inf   next:[297709,4386706] bool_core num_cores:350 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88312/3968635
+#Bound 178.87s best:inf   next:[297710,4386706] bool_core num_cores:351 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88313/3968636
+#Bound 179.01s best:inf   next:[297711,4386706] bool_core num_cores:352 [core:1 mw:1 d:1] assumptions:475 depth:2 fixed_bools:88314/3968637
+#Bound 179.15s best:inf   next:[297712,4386706] bool_core num_cores:353 [core:2 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88314/3968640
+#Bound 179.27s best:inf   next:[297713,4386706] bool_core num_cores:354 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88315/3968641
+#Bound 179.41s best:inf   next:[297714,4386706] bool_core num_cores:355 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88316/3968642
+#Bound 179.53s best:inf   next:[297715,4386706] bool_core num_cores:356 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88317/3968643
+#Bound 179.65s best:inf   next:[297716,4386706] bool_core num_cores:357 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88318/3968644
+#Bound 179.77s best:inf   next:[297717,4386706] bool_core num_cores:358 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88319/3968645
+#Bound 179.92s best:inf   next:[297718,4386706] bool_core num_cores:359 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88320/3968646
+#Bound 180.05s best:inf   next:[297719,4386706] bool_core num_cores:360 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88321/3968647
+#Bound 180.18s best:inf   next:[297720,4386706] bool_core num_cores:361 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88322/3968648
+#Bound 180.31s best:inf   next:[297721,4386706] bool_core num_cores:362 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88323/3968649
+#Bound 180.43s best:inf   next:[297722,4386706] bool_core num_cores:363 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88324/3968650
+#Bound 180.56s best:inf   next:[297723,4386706] bool_core num_cores:364 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88325/3968651
+#Bound 180.69s best:inf   next:[297724,4386706] bool_core num_cores:365 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88326/3968652
+#Bound 180.81s best:inf   next:[297725,4386706] bool_core num_cores:366 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88327/3968653
+#Bound 180.97s best:inf   next:[297726,4386706] bool_core num_cores:367 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88328/3968654
+#Bound 181.15s best:inf   next:[297727,4386706] bool_core num_cores:368 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88329/3968655
+#Bound 181.29s best:inf   next:[297728,4386706] bool_core num_cores:369 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88330/3968656
+#Bound 181.42s best:inf   next:[297729,4386706] bool_core num_cores:370 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88331/3968657
+#Bound 181.54s best:inf   next:[297730,4386706] bool_core num_cores:371 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88332/3968658
+#Bound 181.67s best:inf   next:[297731,4386706] bool_core num_cores:372 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88333/3968659
+#Bound 181.80s best:inf   next:[297732,4386706] bool_core num_cores:373 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88334/3968660
+#Bound 181.93s best:inf   next:[297733,4386706] bool_core num_cores:374 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88335/3968661
+#Bound 182.05s best:inf   next:[297734,4386706] bool_core num_cores:375 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88336/3968662
+#Bound 182.18s best:inf   next:[297735,4386706] bool_core num_cores:376 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88337/3968663
+#Bound 182.30s best:inf   next:[297736,4386706] bool_core num_cores:377 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88338/3968664
+#Bound 182.43s best:inf   next:[297737,4386706] bool_core num_cores:378 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88339/3968665
+#Bound 182.56s best:inf   next:[297738,4386706] bool_core num_cores:379 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88340/3968666
+#Bound 182.70s best:inf   next:[297739,4386706] bool_core num_cores:380 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88341/3968667
+#Bound 182.83s best:inf   next:[297740,4386706] bool_core num_cores:381 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88342/3968668
+#Bound 182.96s best:inf   next:[297741,4386706] bool_core num_cores:382 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88343/3968669
+#Bound 183.13s best:inf   next:[297742,4386706] bool_core num_cores:383 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88344/3968670
+#Bound 183.30s best:inf   next:[297743,4386706] bool_core num_cores:384 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88345/3968671
+#Bound 183.43s best:inf   next:[297744,4386706] bool_core num_cores:385 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88346/3968672
+#Bound 183.57s best:inf   next:[297745,4386706] bool_core num_cores:386 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88347/3968673
+#Bound 183.70s best:inf   next:[297746,4386706] bool_core num_cores:387 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88348/3968674
+#Bound 183.83s best:inf   next:[297747,4386706] bool_core num_cores:388 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88349/3968675
+#Bound 183.96s best:inf   next:[297748,4386706] bool_core num_cores:389 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88350/3968676
+#Bound 184.09s best:inf   next:[297749,4386706] bool_core num_cores:390 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88351/3968677
+#Bound 184.22s best:inf   next:[297750,4386706] bool_core num_cores:391 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88352/3968678
+#Bound 184.35s best:inf   next:[297751,4386706] bool_core num_cores:392 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88353/3968679
+#Bound 184.47s best:inf   next:[297752,4386706] bool_core num_cores:393 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88354/3968680
+#Bound 184.61s best:inf   next:[297753,4386706] bool_core num_cores:394 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88355/3968681
+#Bound 184.74s best:inf   next:[297754,4386706] bool_core num_cores:395 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88356/3968682
+#Bound 184.87s best:inf   next:[297755,4386706] bool_core num_cores:396 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88357/3968683
+#Bound 185.00s best:inf   next:[297756,4386706] bool_core num_cores:397 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88358/3968684
+#Bound 185.14s best:inf   next:[297757,4386706] bool_core num_cores:398 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88359/3968685
+#Bound 185.33s best:inf   next:[297758,4386706] bool_core num_cores:399 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88360/3968686
+#Bound 185.45s best:inf   next:[297759,4386706] bool_core num_cores:400 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88361/3968687
+#Bound 185.56s best:inf   next:[297760,4386706] bool_core num_cores:401 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88362/3968688
+#Bound 185.69s best:inf   next:[297761,4386706] bool_core num_cores:402 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88363/3968689
+#Bound 185.81s best:inf   next:[297762,4386706] bool_core num_cores:403 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88364/3968690
+#Bound 185.93s best:inf   next:[297763,4386706] bool_core num_cores:404 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88365/3968691
+#Bound 186.04s best:inf   next:[297764,4386706] bool_core num_cores:405 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88366/3968692
+#Bound 186.15s best:inf   next:[297765,4386706] bool_core num_cores:406 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88367/3968693
+#Bound 186.27s best:inf   next:[297766,4386706] bool_core num_cores:407 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88368/3968694
+#Bound 186.40s best:inf   next:[297767,4386706] bool_core num_cores:408 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88369/3968695
+#Bound 186.52s best:inf   next:[297768,4386706] bool_core num_cores:409 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88370/3968696
+#Bound 186.65s best:inf   next:[297769,4386706] bool_core num_cores:410 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88371/3968697
+#Bound 186.79s best:inf   next:[297770,4386706] bool_core num_cores:411 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88372/3968698
+#Bound 186.91s best:inf   next:[297771,4386706] bool_core num_cores:412 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88373/3968699
+#Bound 187.04s best:inf   next:[297772,4386706] bool_core num_cores:413 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88374/3968700
+#Bound 187.15s best:inf   next:[297773,4386706] bool_core num_cores:414 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88375/3968701
+#Bound 187.27s best:inf   next:[297774,4386706] bool_core num_cores:415 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88376/3968702
+#Bound 187.47s best:inf   next:[297775,4386706] bool_core num_cores:416 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88377/3968703
+#Bound 187.60s best:inf   next:[297776,4386706] bool_core num_cores:417 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88378/3968704
+#Bound 187.74s best:inf   next:[297777,4386706] bool_core num_cores:418 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88379/3968705
+#Bound 187.86s best:inf   next:[297778,4386706] bool_core num_cores:419 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88380/3968706
+#Bound 188.00s best:inf   next:[297779,4386706] bool_core num_cores:420 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88381/3968707
+#Bound 188.13s best:inf   next:[297780,4386706] bool_core num_cores:421 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88382/3968708
+#Bound 188.25s best:inf   next:[297781,4386706] bool_core num_cores:422 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88383/3968709
+#Bound 188.38s best:inf   next:[297782,4386706] bool_core num_cores:423 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88384/3968710
+#Bound 188.51s best:inf   next:[297783,4386706] bool_core num_cores:424 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88385/3968711
+#Bound 188.64s best:inf   next:[297784,4386706] bool_core num_cores:425 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88386/3968712
+#Bound 188.77s best:inf   next:[297785,4386706] bool_core num_cores:426 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88387/3968713
+#Bound 188.90s best:inf   next:[297786,4386706] bool_core num_cores:427 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88388/3968714
+#Bound 189.03s best:inf   next:[297787,4386706] bool_core num_cores:428 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88389/3968715
+#Bound 189.17s best:inf   next:[297788,4386706] bool_core num_cores:429 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88390/3968716
+#Bound 189.32s best:inf   next:[297789,4386706] bool_core num_cores:430 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88391/3968717
+#Bound 189.48s best:inf   next:[297790,4386706] bool_core num_cores:431 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88392/3968718
+#Bound 189.66s best:inf   next:[297791,4386706] bool_core num_cores:432 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88393/3968719
+#Bound 189.80s best:inf   next:[297792,4386706] bool_core num_cores:433 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88394/3968720
+#Bound 189.91s best:inf   next:[297793,4386706] bool_core num_cores:434 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88395/3968721
+#Bound 190.04s best:inf   next:[297794,4386706] bool_core num_cores:435 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88396/3968722
+#Bound 190.17s best:inf   next:[297795,4386706] bool_core num_cores:436 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88397/3968723
+#Bound 190.30s best:inf   next:[297796,4386706] bool_core num_cores:437 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88398/3968724
+#Bound 190.44s best:inf   next:[297797,4386706] bool_core num_cores:438 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88399/3968725
+#Bound 190.56s best:inf   next:[297798,4386706] bool_core num_cores:439 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88400/3968726
+#Bound 190.67s best:inf   next:[297799,4386706] bool_core num_cores:440 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88401/3968727
+#Bound 190.79s best:inf   next:[297800,4386706] bool_core num_cores:441 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88402/3968728
+#Bound 190.90s best:inf   next:[297801,4386706] bool_core num_cores:442 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88403/3968729
+#Bound 191.00s best:inf   next:[297802,4386706] bool_core num_cores:443 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88404/3968730
+#Bound 191.11s best:inf   next:[297803,4386706] bool_core num_cores:444 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88405/3968731
+#Bound 191.22s best:inf   next:[297804,4386706] bool_core num_cores:445 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88406/3968732
+#Bound 191.34s best:inf   next:[297805,4386706] bool_core num_cores:446 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88407/3968733
+#Bound 191.47s best:inf   next:[297806,4386706] bool_core num_cores:447 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88408/3968734
+#Bound 191.61s best:inf   next:[297807,4386706] bool_core num_cores:448 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88409/3968735
+#Bound 191.76s best:inf   next:[297808,4386706] bool_core num_cores:449 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88410/3968736
+#Bound 191.88s best:inf   next:[297809,4386706] bool_core num_cores:450 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88411/3968737
+#Bound 192.00s best:inf   next:[297810,4386706] bool_core num_cores:451 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88412/3968738
+#Bound 192.15s best:inf   next:[297811,4386706] bool_core num_cores:452 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88413/3968739
+#Bound 192.29s best:inf   next:[297812,4386706] bool_core num_cores:453 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88414/3968740
+#Bound 192.42s best:inf   next:[297813,4386706] bool_core num_cores:454 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88415/3968741
+#Bound 192.55s best:inf   next:[297814,4386706] bool_core num_cores:455 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88416/3968742
+#Bound 192.68s best:inf   next:[297815,4386706] bool_core num_cores:456 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88417/3968743
+#Bound 192.81s best:inf   next:[297816,4386706] bool_core num_cores:457 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88418/3968744
+#Bound 192.96s best:inf   next:[297817,4386706] bool_core num_cores:458 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88419/3968745
+#Bound 193.09s best:inf   next:[297818,4386706] bool_core num_cores:459 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88420/3968746
+#Bound 193.22s best:inf   next:[297819,4386706] bool_core num_cores:460 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88421/3968747
+#Bound 193.35s best:inf   next:[297820,4386706] bool_core num_cores:461 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88422/3968748
+#Bound 193.49s best:inf   next:[297821,4386706] bool_core num_cores:462 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88423/3968749
+#Bound 193.62s best:inf   next:[297822,4386706] bool_core num_cores:463 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88424/3968750
+#Bound 193.79s best:inf   next:[297823,4386706] bool_core num_cores:464 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88425/3968751
+#Bound 193.96s best:inf   next:[297824,4386706] bool_core num_cores:465 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88426/3968752
+#Bound 194.10s best:inf   next:[297825,4386706] bool_core num_cores:466 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88427/3968753
+#Bound 194.22s best:inf   next:[297826,4386706] bool_core num_cores:467 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88428/3968754
+#Bound 194.35s best:inf   next:[297827,4386706] bool_core num_cores:468 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88429/3968755
+#Bound 194.47s best:inf   next:[297828,4386706] bool_core num_cores:469 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88430/3968756
+#Bound 194.59s best:inf   next:[297829,4386706] bool_core num_cores:470 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88431/3968757
+#Bound 194.71s best:inf   next:[297830,4386706] bool_core num_cores:471 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88432/3968758
+#Bound 194.82s best:inf   next:[297831,4386706] bool_core num_cores:472 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88433/3968759
+#Bound 194.94s best:inf   next:[297832,4386706] bool_core num_cores:473 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88434/3968760
+#Bound 195.05s best:inf   next:[297833,4386706] bool_core num_cores:474 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88435/3968761
+#Bound 195.16s best:inf   next:[297834,4386706] bool_core num_cores:475 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88436/3968762
+#Bound 195.27s best:inf   next:[297835,4386706] bool_core num_cores:476 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88437/3968763
+#Bound 195.38s best:inf   next:[297836,4386706] bool_core num_cores:477 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88438/3968764
+#Bound 195.51s best:inf   next:[297837,4386706] bool_core num_cores:478 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88439/3968765
+#Bound 195.64s best:inf   next:[297838,4386706] bool_core num_cores:479 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88440/3968766
+#Bound 195.77s best:inf   next:[297839,4386706] bool_core num_cores:480 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88441/3968767
+#Bound 195.93s best:inf   next:[297840,4386706] bool_core num_cores:481 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88442/3968768
+#Bound 196.06s best:inf   next:[297841,4386706] bool_core num_cores:482 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88443/3968769
+#Bound 196.17s best:inf   next:[297842,4386706] bool_core num_cores:483 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88444/3968770
+#Bound 196.30s best:inf   next:[297843,4386706] bool_core num_cores:484 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88445/3968771
+#Bound 196.41s best:inf   next:[297844,4386706] bool_core num_cores:485 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88446/3968772
+#Bound 196.52s best:inf   next:[297845,4386706] bool_core num_cores:486 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88447/3968773
+#Bound 196.64s best:inf   next:[297846,4386706] bool_core num_cores:487 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88448/3968774
+#Bound 196.76s best:inf   next:[297847,4386706] bool_core num_cores:488 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88449/3968775
+#Bound 196.89s best:inf   next:[297848,4386706] bool_core num_cores:489 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88450/3968776
+#Bound 196.99s best:inf   next:[297849,4386706] bool_core num_cores:490 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88451/3968777
+#Bound 197.10s best:inf   next:[297850,4386706] bool_core num_cores:491 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88452/3968778
+#Bound 197.24s best:inf   next:[297851,4386706] bool_core num_cores:492 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88453/3968779
+#Bound 197.37s best:inf   next:[297852,4386706] bool_core num_cores:493 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88454/3968780
+#Bound 197.50s best:inf   next:[297853,4386706] bool_core num_cores:494 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88455/3968781
+#Bound 197.63s best:inf   next:[297854,4386706] bool_core num_cores:495 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88456/3968782
+#Bound 197.76s best:inf   next:[297855,4386706] bool_core num_cores:496 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88457/3968783
+#Bound 197.87s best:inf   next:[297856,4386706] bool_core num_cores:497 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88458/3968784
+#Bound 198.00s best:inf   next:[297857,4386706] bool_core num_cores:498 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88459/3968785
+#Bound 198.14s best:inf   next:[297858,4386706] bool_core num_cores:499 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88460/3968786
+#Bound 198.24s best:inf   next:[297859,4386706] bool_core num_cores:500 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88461/3968787
+#Bound 198.35s best:inf   next:[297860,4386706] bool_core num_cores:501 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88462/3968788
+#Bound 198.47s best:inf   next:[297861,4386706] bool_core num_cores:502 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88463/3968789
+#Bound 198.58s best:inf   next:[297862,4386706] bool_core num_cores:503 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88464/3968790
+#Bound 198.70s best:inf   next:[297863,4386706] bool_core num_cores:504 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88465/3968791
+#Bound 198.81s best:inf   next:[297864,4386706] bool_core num_cores:505 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88466/3968792
+#Bound 198.94s best:inf   next:[297865,4386706] bool_core num_cores:506 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88467/3968793
+#Bound 199.07s best:inf   next:[297866,4386706] bool_core num_cores:507 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88468/3968794
+#Bound 199.19s best:inf   next:[297867,4386706] bool_core num_cores:508 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88469/3968795
+#Bound 199.31s best:inf   next:[297868,4386706] bool_core num_cores:509 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88470/3968796
+#Bound 199.42s best:inf   next:[297869,4386706] bool_core num_cores:510 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88471/3968797
+#Bound 199.54s best:inf   next:[297870,4386706] bool_core num_cores:511 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88472/3968798
+#Bound 199.67s best:inf   next:[297871,4386706] bool_core num_cores:512 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88473/3968799
+#Bound 199.82s best:inf   next:[297872,4386706] bool_core num_cores:513 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88474/3968800
+#Bound 199.96s best:inf   next:[297873,4386706] bool_core num_cores:514 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88475/3968801
+#Bound 200.12s best:inf   next:[297874,4386706] bool_core num_cores:515 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88476/3968802
+#Bound 200.28s best:inf   next:[297875,4386706] bool_core num_cores:516 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88477/3968803
+#Bound 200.40s best:inf   next:[297876,4386706] bool_core num_cores:517 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88478/3968804
+#Bound 200.52s best:inf   next:[297877,4386706] bool_core num_cores:518 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88479/3968805
+#Bound 200.65s best:inf   next:[297878,4386706] bool_core num_cores:519 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88480/3968806
+#Bound 200.83s best:inf   next:[297879,4386706] bool_core num_cores:520 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88480/3968807
+#Bound 200.97s best:inf   next:[297880,4386706] bool_core num_cores:521 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88481/3968808
+#Bound 201.14s best:inf   next:[297881,4386706] bool_core num_cores:522 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88482/3968809
+#Bound 201.33s best:inf   next:[297882,4386706] bool_core num_cores:523 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88483/3968810
+#Bound 201.48s best:inf   next:[297883,4386706] bool_core num_cores:524 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88484/3968811
+#Bound 201.63s best:inf   next:[297885,4386706] bool_core num_cores:525 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88485/3968813
+#Bound 201.78s best:inf   next:[297887,4386706] bool_core num_cores:526 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88487/3968815
+#Bound 201.94s best:inf   next:[297889,4386706] bool_core num_cores:527 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88491/3968817
+#Bound 202.09s best:inf   next:[297891,4386706] bool_core num_cores:528 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88495/3968819
+#Bound 202.25s best:inf   next:[297893,4386706] bool_core num_cores:529 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88499/3968821
+#Bound 202.46s best:inf   next:[297895,4386706] bool_core num_cores:530 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88501/3968823
+#Bound 202.58s best:inf   next:[297897,4386706] bool_core num_cores:531 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88503/3968824
+#Bound 202.66s best:inf   next:[297898,4386706] bool_core num_cores:532 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 202.72s best:inf   next:[297899,4386706] bool_core num_cores:533 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 202.78s best:inf   next:[297900,4386706] bool_core num_cores:534 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 202.83s best:inf   next:[297901,4386706] bool_core num_cores:535 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 202.89s best:inf   next:[297902,4386706] bool_core num_cores:536 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 202.96s best:inf   next:[297903,4386706] bool_core num_cores:537 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.01s best:inf   next:[297904,4386706] bool_core num_cores:538 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.07s best:inf   next:[297905,4386706] bool_core num_cores:539 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.13s best:inf   next:[297906,4386706] bool_core num_cores:540 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.19s best:inf   next:[297907,4386706] bool_core num_cores:541 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.25s best:inf   next:[297908,4386706] bool_core num_cores:542 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.30s best:inf   next:[297909,4386706] bool_core num_cores:543 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.35s best:inf   next:[297910,4386706] bool_core num_cores:544 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.41s best:inf   next:[297911,4386706] bool_core num_cores:545 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.46s best:inf   next:[297912,4386706] bool_core num_cores:546 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.52s best:inf   next:[297913,4386706] bool_core num_cores:547 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968824
+#Bound 203.58s best:inf   next:[297914,4386706] bool_core num_cores:548 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968825
+#Bound 203.71s best:inf   next:[297915,4386706] bool_core num_cores:549 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88509/3968826
+#Bound 203.85s best:inf   next:[297916,4386706] bool_core num_cores:550 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88510/3968827
+#Bound 204.00s best:inf   next:[297917,4386706] bool_core num_cores:551 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88511/3968828
+#Bound 204.13s best:inf   next:[297918,4386706] bool_core num_cores:552 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88512/3968829
+#Bound 204.28s best:inf   next:[297919,4386706] bool_core num_cores:553 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88513/3968830
+#Bound 204.46s best:inf   next:[297920,4386706] bool_core num_cores:554 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88514/3968831
+#Bound 204.62s best:inf   next:[297921,4386706] bool_core num_cores:555 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88515/3968832
+#Bound 204.74s best:inf   next:[297922,4386706] bool_core num_cores:556 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88516/3968833
+#Bound 204.87s best:inf   next:[297923,4386706] bool_core num_cores:557 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88517/3968834
+#Bound 205.01s best:inf   next:[297924,4386706] bool_core num_cores:558 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88518/3968835
+#Bound 205.15s best:inf   next:[297925,4386706] bool_core num_cores:559 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88519/3968836
+#Bound 205.30s best:inf   next:[297926,4386706] bool_core num_cores:560 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88520/3968837
+#Bound 205.43s best:inf   next:[297927,4386706] bool_core num_cores:561 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88521/3968838
+#Bound 205.58s best:inf   next:[297928,4386706] bool_core num_cores:562 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88522/3968839
+#Bound 205.73s best:inf   next:[297929,4386706] bool_core num_cores:563 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88523/3968840
+#Bound 205.87s best:inf   next:[297930,4386706] bool_core num_cores:564 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88524/3968841
+#Bound 206.01s best:inf   next:[297931,4386706] bool_core num_cores:565 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88525/3968842
+#Bound 206.15s best:inf   next:[297933,4386706] bool_core num_cores:566 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88526/3968844
+#Bound 206.28s best:inf   next:[297935,4386706] bool_core num_cores:567 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88528/3968846
+#Bound 206.43s best:inf   next:[297937,4386706] bool_core num_cores:568 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88532/3968848
+#Bound 206.63s best:inf   next:[297939,4386706] bool_core num_cores:569 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88536/3968850
+#Bound 206.81s best:inf   next:[297941,4386706] bool_core num_cores:570 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88540/3968852
+#Bound 206.96s best:inf   next:[297943,4386706] bool_core num_cores:571 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88542/3968854
+#Bound 207.11s best:inf   next:[297945,4386706] bool_core num_cores:572 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88544/3968855
+#Bound 207.21s best:inf   next:[297946,4386706] bool_core num_cores:573 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.28s best:inf   next:[297947,4386706] bool_core num_cores:574 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.35s best:inf   next:[297948,4386706] bool_core num_cores:575 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.43s best:inf   next:[297949,4386706] bool_core num_cores:576 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.51s best:inf   next:[297950,4386706] bool_core num_cores:577 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.58s best:inf   next:[297951,4386706] bool_core num_cores:578 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.65s best:inf   next:[297952,4386706] bool_core num_cores:579 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.72s best:inf   next:[297953,4386706] bool_core num_cores:580 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.79s best:inf   next:[297954,4386706] bool_core num_cores:581 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.86s best:inf   next:[297955,4386706] bool_core num_cores:582 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 207.93s best:inf   next:[297956,4386706] bool_core num_cores:583 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 208.00s best:inf   next:[297957,4386706] bool_core num_cores:584 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 208.08s best:inf   next:[297958,4386706] bool_core num_cores:585 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 208.14s best:inf   next:[297959,4386706] bool_core num_cores:586 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 208.21s best:inf   next:[297960,4386706] bool_core num_cores:587 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 208.28s best:inf   next:[297961,4386706] bool_core num_cores:588 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968855
+#Bound 208.35s best:inf   next:[297962,4386706] bool_core num_cores:589 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968856
+#Bound 208.51s best:inf   next:[297963,4386706] bool_core num_cores:590 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88550/3968857
+#Bound 208.69s best:inf   next:[297964,4386706] bool_core num_cores:591 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88551/3968858
+#Bound 208.86s best:inf   next:[297965,4386706] bool_core num_cores:592 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88552/3968859
+#Bound 209.00s best:inf   next:[297966,4386706] bool_core num_cores:593 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88553/3968860
+#Bound 209.14s best:inf   next:[297967,4386706] bool_core num_cores:594 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88554/3968861
+#Bound 209.27s best:inf   next:[297968,4386706] bool_core num_cores:595 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88555/3968862
+#Bound 209.40s best:inf   next:[297969,4386706] bool_core num_cores:596 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88556/3968863
+#Bound 209.53s best:inf   next:[297970,4386706] bool_core num_cores:597 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88557/3968864
+#Bound 209.66s best:inf   next:[297971,4386706] bool_core num_cores:598 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88558/3968865
+#Bound 209.82s best:inf   next:[297972,4386706] bool_core num_cores:599 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88559/3968866
+#Bound 209.97s best:inf   next:[297973,4386706] bool_core num_cores:600 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88560/3968867
+#Bound 210.13s best:inf   next:[297974,4386706] bool_core num_cores:601 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88561/3968868
+#Bound 210.29s best:inf   next:[297975,4386706] bool_core num_cores:602 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88562/3968869
+#Bound 210.47s best:inf   next:[297976,4386706] bool_core num_cores:603 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88563/3968870
+#Bound 210.62s best:inf   next:[297977,4386706] bool_core num_cores:604 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88564/3968871
+#Bound 210.76s best:inf   next:[297978,4386706] bool_core num_cores:605 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88565/3968872
+#Bound 210.93s best:inf   next:[297979,4386706] bool_core num_cores:606 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88566/3968873
+#Bound 211.07s best:inf   next:[297981,4386706] bool_core num_cores:607 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88567/3968875
+#Bound 211.20s best:inf   next:[297983,4386706] bool_core num_cores:608 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88571/3968877
+#Bound 211.34s best:inf   next:[297985,4386706] bool_core num_cores:609 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88575/3968879
+#Bound 211.51s best:inf   next:[297987,4386706] bool_core num_cores:610 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88577/3968881
+#Bound 211.71s best:inf   next:[297989,4386706] bool_core num_cores:611 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88579/3968883
+#Bound 211.85s best:inf   next:[297991,4386706] bool_core num_cores:612 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88581/3968885
+#Bound 211.99s best:inf   next:[297993,4386706] bool_core num_cores:613 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88583/3968886
+#Bound 212.06s best:inf   next:[297994,4386706] bool_core num_cores:614 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.12s best:inf   next:[297995,4386706] bool_core num_cores:615 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.19s best:inf   next:[297996,4386706] bool_core num_cores:616 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.27s best:inf   next:[297997,4386706] bool_core num_cores:617 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.32s best:inf   next:[297998,4386706] bool_core num_cores:618 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.38s best:inf   next:[297999,4386706] bool_core num_cores:619 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.44s best:inf   next:[298000,4386706] bool_core num_cores:620 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.50s best:inf   next:[298001,4386706] bool_core num_cores:621 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.57s best:inf   next:[298002,4386706] bool_core num_cores:622 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.64s best:inf   next:[298003,4386706] bool_core num_cores:623 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.70s best:inf   next:[298004,4386706] bool_core num_cores:624 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.76s best:inf   next:[298005,4386706] bool_core num_cores:625 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.82s best:inf   next:[298006,4386706] bool_core num_cores:626 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.89s best:inf   next:[298007,4386706] bool_core num_cores:627 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 212.96s best:inf   next:[298008,4386706] bool_core num_cores:628 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 213.02s best:inf   next:[298009,4386706] bool_core num_cores:629 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968886
+#Bound 213.07s best:inf   next:[298010,4386706] bool_core num_cores:630 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968887
+#Bound 213.22s best:inf   next:[298011,4386706] bool_core num_cores:631 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88589/3968888
+#Bound 213.36s best:inf   next:[298012,4386706] bool_core num_cores:632 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88590/3968889
+#Bound 213.50s best:inf   next:[298013,4386706] bool_core num_cores:633 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88591/3968890
+#Bound 213.68s best:inf   next:[298014,4386706] bool_core num_cores:634 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88592/3968891
+#Bound 213.88s best:inf   next:[298015,4386706] bool_core num_cores:635 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88593/3968892
+#Bound 214.05s best:inf   next:[298016,4386706] bool_core num_cores:636 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88594/3968893
+#Bound 214.19s best:inf   next:[298017,4386706] bool_core num_cores:637 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88595/3968894
+#Bound 214.35s best:inf   next:[298018,4386706] bool_core num_cores:638 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88596/3968895
+#Bound 214.54s best:inf   next:[298019,4386706] bool_core num_cores:639 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88597/3968896
+#Bound 214.69s best:inf   next:[298020,4386706] bool_core num_cores:640 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88598/3968897
+#Bound 214.85s best:inf   next:[298021,4386706] bool_core num_cores:641 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88599/3968898
+#Bound 214.99s best:inf   next:[298022,4386706] bool_core num_cores:642 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88600/3968899
+#Bound 215.13s best:inf   next:[298023,4386706] bool_core num_cores:643 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88601/3968900
+#Bound 215.26s best:inf   next:[298024,4386706] bool_core num_cores:644 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88602/3968901
+#Bound 215.42s best:inf   next:[298025,4386706] bool_core num_cores:645 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88603/3968902
+#Bound 215.56s best:inf   next:[298026,4386706] bool_core num_cores:646 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88604/3968903
+#Bound 215.71s best:inf   next:[298027,4386706] bool_core num_cores:647 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88605/3968904
+#Bound 215.88s best:inf   next:[298029,4386706] bool_core num_cores:648 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88606/3968906
+#Bound 216.00s best:inf   next:[298031,4386706] bool_core num_cores:649 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88610/3968908
+#Bound 216.14s best:inf   next:[298033,4386706] bool_core num_cores:650 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88614/3968910
+#Bound 216.29s best:inf   next:[298035,4386706] bool_core num_cores:651 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88618/3968912
+#Bound 216.43s best:inf   next:[298037,4386706] bool_core num_cores:652 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88620/3968913
+#Bound 216.50s best:inf   next:[298038,4386706] bool_core num_cores:653 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 216.56s best:inf   next:[298039,4386706] bool_core num_cores:654 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 216.62s best:inf   next:[298040,4386706] bool_core num_cores:655 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 216.69s best:inf   next:[298041,4386706] bool_core num_cores:656 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 216.74s best:inf   next:[298042,4386706] bool_core num_cores:657 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 216.81s best:inf   next:[298043,4386706] bool_core num_cores:658 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 216.87s best:inf   next:[298044,4386706] bool_core num_cores:659 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 216.93s best:inf   next:[298045,4386706] bool_core num_cores:660 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.00s best:inf   next:[298046,4386706] bool_core num_cores:661 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.08s best:inf   next:[298047,4386706] bool_core num_cores:662 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.16s best:inf   next:[298048,4386706] bool_core num_cores:663 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.22s best:inf   next:[298049,4386706] bool_core num_cores:664 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.28s best:inf   next:[298050,4386706] bool_core num_cores:665 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.34s best:inf   next:[298051,4386706] bool_core num_cores:666 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.41s best:inf   next:[298052,4386706] bool_core num_cores:667 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.46s best:inf   next:[298053,4386706] bool_core num_cores:668 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.53s best:inf   next:[298054,4386706] bool_core num_cores:669 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.59s best:inf   next:[298055,4386706] bool_core num_cores:670 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.66s best:inf   next:[298056,4386706] bool_core num_cores:671 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.71s best:inf   next:[298057,4386706] bool_core num_cores:672 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.78s best:inf   next:[298058,4386706] bool_core num_cores:673 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.85s best:inf   next:[298059,4386706] bool_core num_cores:674 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 217.93s best:inf   next:[298060,4386706] bool_core num_cores:675 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 218.01s best:inf   next:[298061,4386706] bool_core num_cores:676 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 218.08s best:inf   next:[298062,4386706] bool_core num_cores:677 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 218.15s best:inf   next:[298063,4386706] bool_core num_cores:678 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 218.23s best:inf   next:[298064,4386706] bool_core num_cores:679 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 218.29s best:inf   next:[298065,4386706] bool_core num_cores:680 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 218.35s best:inf   next:[298066,4386706] bool_core num_cores:681 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 218.41s best:inf   next:[298067,4386706] bool_core num_cores:682 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 218.42s best:inf   next:[298098,4386706] lb_tree_search
+#Bound 220.57s best:inf   next:[298099,4386706] bool_core num_cores:714 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 220.65s best:inf   next:[298100,4386706] bool_core num_cores:715 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 220.72s best:inf   next:[298101,4386706] bool_core num_cores:716 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 220.79s best:inf   next:[298102,4386706] bool_core num_cores:717 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968913
+#Bound 220.86s best:inf   next:[298103,4386706] bool_core num_cores:718 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968914
+#Bound 220.99s best:inf   next:[298104,4386706] bool_core num_cores:719 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88626/3968915
+#Bound 221.15s best:inf   next:[298105,4386706] bool_core num_cores:720 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88627/3968916
+#Bound 221.29s best:inf   next:[298106,4386706] bool_core num_cores:721 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88628/3968917
+#Bound 221.45s best:inf   next:[298107,4386706] bool_core num_cores:722 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88629/3968918
+#Bound 221.59s best:inf   next:[298108,4386706] bool_core num_cores:723 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88630/3968919
+#Bound 221.72s best:inf   next:[298109,4386706] bool_core num_cores:724 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88631/3968920
+#Bound 221.86s best:inf   next:[298110,4386706] bool_core num_cores:725 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88632/3968921
+#Bound 221.99s best:inf   next:[298111,4386706] bool_core num_cores:726 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88633/3968922
+#Bound 222.11s best:inf   next:[298112,4386706] bool_core num_cores:727 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88634/3968923
+#Bound 222.26s best:inf   next:[298113,4386706] bool_core num_cores:728 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88635/3968924
+#Bound 222.41s best:inf   next:[298114,4386706] bool_core num_cores:729 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88636/3968925
+#Bound 222.56s best:inf   next:[298115,4386706] bool_core num_cores:730 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88637/3968926
+#Bound 222.71s best:inf   next:[298116,4386706] bool_core num_cores:731 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88638/3968927
+#Bound 222.86s best:inf   next:[298117,4386706] bool_core num_cores:732 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88639/3968928
+#Bound 223.03s best:inf   next:[298118,4386706] bool_core num_cores:733 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88640/3968929
+#Bound 223.17s best:inf   next:[298119,4386706] bool_core num_cores:734 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88641/3968930
+#Bound 223.29s best:inf   next:[298120,4386706] bool_core num_cores:735 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88642/3968931
+#Bound 223.45s best:inf   next:[298121,4386706] bool_core num_cores:736 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88643/3968932
+#Bound 223.62s best:inf   next:[298122,4386706] bool_core num_cores:737 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88644/3968933
+#Bound 223.75s best:inf   next:[298123,4386706] bool_core num_cores:738 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88645/3968934
+#Bound 223.90s best:inf   next:[298124,4386706] bool_core num_cores:739 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88646/3968935
+#Bound 224.07s best:inf   next:[298125,4386706] bool_core num_cores:740 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88647/3968936
+#Bound 224.22s best:inf   next:[298126,4386706] bool_core num_cores:741 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88648/3968937
+#Bound 224.37s best:inf   next:[298127,4386706] bool_core num_cores:742 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88649/3968938
+#Bound 224.51s best:inf   next:[298128,4386706] bool_core num_cores:743 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88650/3968939
+#Bound 224.64s best:inf   next:[298129,4386706] bool_core num_cores:744 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88651/3968940
+#Bound 224.79s best:inf   next:[298130,4386706] bool_core num_cores:745 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88652/3968941
+#Bound 224.94s best:inf   next:[298131,4386706] bool_core num_cores:746 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88653/3968942
+#Bound 225.10s best:inf   next:[298132,4386706] bool_core num_cores:747 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88654/3968943
+#Bound 225.25s best:inf   next:[298133,4386706] bool_core num_cores:748 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88655/3968944
+#Bound 225.37s best:inf   next:[298134,4386706] bool_core num_cores:749 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88656/3968945
+#Bound 225.51s best:inf   next:[298135,4386706] bool_core num_cores:750 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88657/3968946
+#Bound 225.66s best:inf   next:[298136,4386706] bool_core num_cores:751 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88658/3968947
+#Bound 225.82s best:inf   next:[298137,4386706] bool_core num_cores:752 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88659/3968948
+#Bound 225.96s best:inf   next:[298138,4386706] bool_core num_cores:753 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88660/3968949
+#Bound 226.11s best:inf   next:[298139,4386706] bool_core num_cores:754 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88661/3968950
+#Bound 226.27s best:inf   next:[298140,4386706] bool_core num_cores:755 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88662/3968951
+#Bound 226.40s best:inf   next:[298141,4386706] bool_core num_cores:756 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88663/3968952
+#Bound 226.52s best:inf   next:[298142,4386706] bool_core num_cores:757 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88664/3968953
+#Bound 226.67s best:inf   next:[298143,4386706] bool_core num_cores:758 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88665/3968954
+#Bound 226.82s best:inf   next:[298144,4386706] bool_core num_cores:759 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88666/3968955
+#Bound 226.95s best:inf   next:[298145,4386706] bool_core num_cores:760 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88667/3968956
+#Bound 227.11s best:inf   next:[298146,4386706] bool_core num_cores:761 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88668/3968957
+#Bound 227.26s best:inf   next:[298147,4386706] bool_core num_cores:762 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88669/3968958
+#Bound 227.41s best:inf   next:[298148,4386706] bool_core num_cores:763 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88670/3968959
+#Bound 227.56s best:inf   next:[298149,4386706] bool_core num_cores:764 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88671/3968960
+#Bound 227.72s best:inf   next:[298150,4386706] bool_core num_cores:765 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88672/3968961
+#Bound 227.89s best:inf   next:[298151,4386706] bool_core num_cores:766 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88673/3968962
+#Bound 228.05s best:inf   next:[298152,4386706] bool_core num_cores:767 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88674/3968963
+#Bound 228.18s best:inf   next:[298153,4386706] bool_core num_cores:768 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88675/3968964
+#Bound 228.35s best:inf   next:[298154,4386706] bool_core num_cores:769 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88676/3968965
+#Bound 228.49s best:inf   next:[298155,4386706] bool_core num_cores:770 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88677/3968966
+#Bound 228.63s best:inf   next:[298156,4386706] bool_core num_cores:771 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88678/3968967
+#Bound 228.78s best:inf   next:[298157,4386706] bool_core num_cores:772 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88679/3968968
+#Bound 228.93s best:inf   next:[298158,4386706] bool_core num_cores:773 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88680/3968969
+#Bound 229.08s best:inf   next:[298159,4386706] bool_core num_cores:774 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88681/3968970
+#Bound 229.22s best:inf   next:[298160,4386706] bool_core num_cores:775 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88682/3968971
+#Bound 229.36s best:inf   next:[298161,4386706] bool_core num_cores:776 [core:1 mw:1 d:1] assumptions:474 depth:2 fixed_bools:88683/3968972
+#Bound 229.43s best:inf   next:[318818,4386706] pseudo_costs
+#Bound 230.71s best:inf   next:[322023,4386706] pseudo_costs
+#Bound 232.00s best:inf   next:[324962,4386706] pseudo_costs
+#Bound 234.35s best:inf   next:[326361,4386706] reduced_costs
+#Bound 234.37s best:inf   next:[326772,4386706] pseudo_costs
+#Bound 236.75s best:inf   next:[331630,4386706] reduced_costs
+#Bound 241.08s best:inf   next:[332136,4386706] pseudo_costs
+#Bound 247.99s best:inf   next:[336951,4386706] pseudo_costs
+#Bound 251.10s best:inf   next:[337819,4386706] pseudo_costs
+#Bound 252.39s best:inf   next:[337841,4386706] pseudo_costs
+#Bound 253.82s best:inf   next:[338043,4386706] pseudo_costs
+#Bound 256.72s best:inf   next:[338966,4386706] pseudo_costs
+#Bound 257.93s best:inf   next:[339367,4386706] pseudo_costs
+#Bound 259.27s best:inf   next:[340122,4386706] pseudo_costs
+#Bound 263.24s best:inf   next:[340468,4386706] pseudo_costs
+#Bound 264.52s best:inf   next:[340982,4386706] pseudo_costs
+#Bound 265.89s best:inf   next:[341169,4386706] pseudo_costs
+#Bound 268.52s best:inf   next:[341756,4386706] pseudo_costs
+#Bound 269.81s best:inf   next:[341771,4386706] pseudo_costs
+#Bound 281.03s best:inf   next:[342848,4386706] pseudo_costs
+#Bound 282.37s best:inf   next:[342930,4386706] pseudo_costs
+#Bound 283.72s best:inf   next:[342941,4386706] pseudo_costs
+#Bound 300.77s best:inf   next:[342978,4386706] lb_tree_search
+#Bound 302.06s best:inf   next:[342983,4386706] lb_tree_search
+#Bound 303.40s best:inf   next:[342993,4386706] lb_tree_search
+#Bound 306.19s best:inf   next:[343065,4386706] lb_tree_search
+#1     314.86s best:735185 next:[343065,735184] quick_restart_no_lp [hint] fixed_bools:88078/3970647
+Solution 0, time = 314.863877 s, objective = 735185, posted job starts = 224, fulfilled deadline = 266, overdue time = 1274084982885, overdue_time_stueckzahl = 2546940544618, start times = 725688, transition cost = 2156,  early finished = -101689, overdue_time_KundenWunschTermin = 735185, makespan = 6351, equal_capacity_pool = 544, equal_capacity_all = 3172
+presences: [56, 39, 48, 23, 17, 22, 27, 15, 28]
+#2     463.58s best:735184 next:[343065,735183] no_lp fixed_bools:88182/3970647
+Solution 1, time = 463.581983 s, objective = 735184, posted job starts = 224, fulfilled deadline = 266, overdue time = 1274084180520, overdue_time_stueckzahl = 2546938940965, start times = 725687, transition cost = 2156,  early finished = -101689, overdue_time_KundenWunschTermin = 735184, makespan = 6351, equal_capacity_pool = 544, equal_capacity_all = 3172
+presences: [56, 39, 48, 23, 17, 22, 27, 15, 28]
+#3     663.27s best:735173 next:[343065,735172] no_lp fixed_bools:88222/3970648
+Solution 2, time = 663.291089 s, objective = 735173, posted job starts = 224, fulfilled deadline = 266, overdue time = 1274084180520, overdue_time_stueckzahl = 2546938940965, start times = 725676, transition cost = 2156,  early finished = -101689, overdue_time_KundenWunschTermin = 735173, makespan = 6351, equal_capacity_pool = 544, equal_capacity_all = 3172
+presences: [56, 39, 48, 23, 17, 22, 27, 15, 28]
+#4     838.29s best:735172 next:[343065,735171] no_lp fixed_bools:88303/3970648
+Solution 3, time = 838.336496 s, objective = 735172, posted job starts = 224, fulfilled deadline = 266, overdue time = 1274083019745, overdue_time_stueckzahl = 2546936620240, start times = 725674, transition cost = 2156,  early finished = -101689, overdue_time_KundenWunschTermin = 735172, makespan = 6351, equal_capacity_pool = 544, equal_capacity_all = 3172
+presences: [56, 39, 48, 23, 17, 22, 27, 15, 28]
+#5     973.71s best:735171 next:[343065,735170] no_lp fixed_bools:88928/3970648
+Solution 4, time = 973.721456 s, objective = 735171, posted job starts = 224, fulfilled deadline = 266, overdue time = 1274080652101, overdue_time_stueckzahl = 2546931889780, start times = 725673, transition cost = 2156,  early finished = -101689, overdue_time_KundenWunschTermin = 735171, makespan = 6351, equal_capacity_pool = 544, equal_capacity_all = 3172
+presences: [56, 39, 48, 23, 17, 22, 27, 15, 28]
+#6     1113.53s best:735170 next:[343065,735169] no_lp fixed_bools:89299/3970648
+Solution 5, time = 1113.540353 s, objective = 735170, posted job starts = 224, fulfilled deadline = 266, overdue time = 1274077636669, overdue_time_stueckzahl = 2546925860653, start times = 725672, transition cost = 2156,  early finished = -101689, overdue_time_KundenWunschTermin = 735170, makespan = 6351, equal_capacity_pool = 544, equal_capacity_all = 3172
+presences: [56, 39, 48, 23, 17, 22, 27, 15, 28]
+#7     1253.89s best:735169 next:[343065,735168] no_lp fixed_bools:89327/3970648
+Check failed: Assignment().LiteralIsAssigned(lit) 
+*** Check failure stack trace: ***
+Abgebrochen (Speicherabzug geschrieben)
